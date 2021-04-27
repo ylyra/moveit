@@ -27,14 +27,14 @@ type Send<T> = (body: T) => void;
 const options = {
   providers: [
     Providers.GitHub({
-      clientId: "fbfa39fff851d8b4de21",
-      clientSecret: "38fa5ba9351009833dd5c2926ed2543a6083f7cb"
+      clientId: process.env.GITHUB_ID,
+      clientSecret: process.env.GITHUB_SECRET
     }),
   ],
   debug: process.env.NODE_ENV === 'development',
-  secret: "wsm4qctl2g9imj6ollam",
+  secret: process.env.AUTH_SECRET,
   jwt: {
-    secret: "1cuwhpfcwftnznpt3o0p"
+    secret: process.env.JWT_SECRET
   }
 }
 

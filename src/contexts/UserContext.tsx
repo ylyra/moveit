@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useEffect, useState } from "react";
-import { useSession } from 'next-auth/client'
-import { useRouter } from 'next/router'
+import { useSession } from "next-auth/client";
+import { useRouter } from "next/router";
 
 interface UserData {
   email?: string | null;
@@ -9,7 +9,7 @@ interface UserData {
 }
 
 interface UserContextData {
-  user: UserData
+  user: UserData;
 }
 
 interface UserProviderProps {
@@ -22,23 +22,22 @@ export function UserProvider({ children }: UserProviderProps) {
   const [session, loading] = useSession();
   const [user, setUser] = useState({} as UserData);
   const router = useRouter();
-  
+
   useEffect(() => {
-    if(!loading && !session) {
-      router.push('/login');
-    } else if(!loading && session) {
+    if (!loading && !session) {
+      router.push("/login");
+    } else if (!loading && session) {
       setUser(session.user);
     }
-  }, [loading])
+  }, [loading]);
 
   const valueProvider = {
-    user
-  }
+    user,
+  };
 
   return (
     <UserContext.Provider value={valueProvider}>
       {children}
     </UserContext.Provider>
   );
-
-} 
+}
