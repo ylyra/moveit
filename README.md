@@ -45,7 +45,7 @@ yarn dev
 # O projeto iniciará na porta :3000 para acessar ele no localhost basta ir em <http://localhost:3000>
 ```
 
-### Tecnologias
+## Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
