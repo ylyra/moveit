@@ -16,7 +16,7 @@ Tabela de conteúdos
 
 ## Sobre
 
-Este site foi desenvolvido durante a NLW#04 o mesmo tem como o objetivo ajudar aqueles que ficam uma grande parte do seu dia na frente do computador a se exercitarem com um pouco de diversão, cada exércicio que a pessoa fizer a mesma recebe uma pontuação podendo juntar pontos e subir de nível.
+Este site foi desenvolvido durante a [NLW#04](http://nextlevelweek.com/) o mesmo tem como o objetivo ajudar aqueles que ficam uma grande parte do seu dia na frente do computador a se exercitarem com um pouco de diversão, cada exércicio que a pessoa fizer a mesma recebe uma pontuação podendo juntar pontos e subir de nível.
 
 
 ## Pré-requisitos
