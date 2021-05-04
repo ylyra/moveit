@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://moveit.yanlyra.com.br/">
+  <a href="https://moveit.yanlyra.com.br/">
     <img src="https://i.imgur.com/OaWqENP.png"/>
   </a>
 </p>
@@ -57,7 +57,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 
 <p align="center">
-  <a href="http://moveit.yanlyra.com.br/">
+  <a href="https://moveit.yanlyra.com.br/">
     <img src="https://img.shields.io/static/v1?label=Site&message=Move.it&color=7159c1&style=for-the-badge&logo=ghost"/>
   </a>
 </p>
