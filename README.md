@@ -7,7 +7,7 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-  - [Tabela de conteúdos](#tabela-de-conteúdos)
+  - [Tabela](#tabela-de-conteúdos)
   - [Sobre](#sobre)
   - [Pré-requisitos](#pré-requisitos)
   - [Iniciando](#iniciando)
